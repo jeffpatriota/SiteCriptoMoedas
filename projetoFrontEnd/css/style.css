@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
@@ -13,19 +13,36 @@ header {
     color: antiquewhite;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     width: 100%;
+    position: fixed;
 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5rem;
+    
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.9rem;
 }
 
 
 h3 {
-    size: 20px;
+    font-size: 1.9rem;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 5px;
 }
 
 h4 {
-    size: 20px;
+    font-size: 1rem;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding-left: 5px;
@@ -46,11 +63,12 @@ body {
     max-height: 90%;
     min-width: 0;
     min-height: 0;
+    margin-top: 40px;
 
 
 }
 
-footer{
+footer {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #fff;
     background-color: black;
@@ -60,9 +78,28 @@ footer{
 
 }
 
-p{
+p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: justify;
     padding: 10px;
-    size: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.texto-footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size:  1.6rem;
+    padding-bottom: 10px;
+}
+
+.compre {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    margin-top: 8%;
+    z-index: 1;
 }
