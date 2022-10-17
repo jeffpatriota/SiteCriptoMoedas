@@ -10,6 +10,13 @@
 
 <body>
     <header>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Cursos</a>
+            <a href="#">Sobre</a>
+
+        </nav>
+
         <h3>TREINAMENTO HTML e CSS</h3>
         <h4>Front-End Essencial</h4>
     </header>
@@ -40,7 +47,7 @@
             Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a um
             documento web </p>
     </section>
-    <br><br>
+    <br>
     <br>
     <section class="container" id="grid-container">
         <div class="grid">
@@ -54,6 +61,48 @@
 
         </div>
     </section>
+
+    <br>
+
+    <section class="container" id="formulario">
+        <h2> Selecione um Produto para Mais Informações</h2>
+
+        <form action="#" method="get" target="_blank">
+
+            <p class="formulario-contato">
+
+                <label for="nome">Nome</label><br>
+                <input class="dados-formulario" type=" text" id="nome" name="nome" placeholder="Insira seu Nome">
+
+            </p>
+
+            <p class="formulario-contato">
+
+                <label for="contato">Contato</label><br>
+                <input class="dados-formulario" type="tel" id="tel" name="nome" placeholder="Insira seu WhatsApp">
+
+            </p>
+
+            <p class="formulario-contato">
+                <input type="checkbox" id="JavaScript" name="JavaScript" value="cursos de office">
+                <label for="JavaScript">Quero saber mais sobre Cursos de JavaScript</label>
+                <br><br>
+
+                <input type="checkbox" id="ReactJs" name="ReactJs" value="cursos de ReactJs">
+                <label for="ReactJs">Quero saber mais sobre Cursos de ReactJs</label>
+                <br><br>
+
+                <input type="checkbox" id="React Native" name="React Native" value="cursos de React Native">
+                <label for="React Native">Quero saber mais sobre Cursos de React Native</label>
+            </p>
+            <p class="formulario-contato">
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="LIMPAR">
+            </p>
+
+        </form>
+    </section>
+    <br>
     <br><br>
     <footer>
         <h3>EstudosHTMLeCSS</h3>
