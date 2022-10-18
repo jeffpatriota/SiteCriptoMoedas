@@ -142,9 +142,9 @@ p {
 }
 
 #formulario {
-    background-color: #373750;
+    background-color: #A9A9A9;
     color: #fff;
-    text-shadow: 3px 3px  black;
+    text-shadow: 2px 2px  black;
 }
 
 .formulario-contato {
@@ -155,7 +155,7 @@ p {
     margin-left: 5%;
     font-weight: bold;
     color: #fff;
-    text-shadow: 3px 3px  black;
+    text-shadow: 2px 2px  black;
 }
 
 input {
